@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Mata Mosquito</title>
+        <link rel="stylesheet" href="estilo.css">
+        
+    </head>
+    <body onresize="ajustar()">
+        <div class="painel">
+            <div class="vidas">
+                <img id="v1" src="imagens/coracao_cheio.png">
+                <img id="v2" src="imagens/coracao_cheio.png">
+                <img id="v3" src="imagens/coracao_cheio.png">
+            </div>
+            <div class="cronometro">
+                <h3>tempo restante:<span id="tempo"></span></h3>
+            </div>
+        </div>
+        <audio id="zumbido" src="audio/fly_appears.mp3"></audio>
+        <audio id="acerto" src="audio/hit.mp3"></audio>
+        <audio id="hurt" src="audio/hurt.mp3"></audio>
+        <audio id="music" src="audio/background.wav"></audio>
+        
+    </body>
+    <script src="app.js"></script>
+    <script>
+        document.getElementById('tempo').innerHTML = tempo
+        let inicioJogo = setInterval(function (){
+            criarMosquito()
+        }, criarMosquitoTempo);
+    </script>
+</html>

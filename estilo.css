@@ -1,0 +1,63 @@
+
+
+
+html{
+    cursor: url(imagens/mata_mosca.png)30 30, auto;
+}
+html:active{
+    cursor: url(imagens/matamosca-clique.png)30 30, auto;
+}
+
+body{
+    background-image: url(imagens/bg.jpg);
+    background-repeat: no-repeat; 
+    background-size: 100%, 100%
+}
+.painel{
+    position:absolute;
+    width: 190px;
+    padding: 10px;
+    bottom: 0px;
+    border-top: solid 1px white;
+    background-color: white;
+    opacity: 0.7;
+}
+.vidas{
+    float: left;
+}
+.cronometro{
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.mosquito1{
+    width: 50px;
+    height: 50px;
+}
+.mosquito2{
+    width: 80px;
+    height: 80px;
+}
+.mosquito3{
+    width: 120px;
+    width: 120px;
+}
+.mosquito4{
+    width: 150px;
+}
+.mosquito0{
+    width: 30px;
+}
+.rotate1{
+    transform: scaleX(-1)
+}
+.rotate2{
+    transform: scaleX(1)
+}
+.rotate0{
+    transform: rotate(30deg);
+}
