@@ -26,7 +26,7 @@ Criar um jogo que roda um cronometro para completá-lo, com contador de vidas e 
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://jimcarey08.github.io/Game-Mata-Mosquito/)
+- Live Site URL: [Clique aqui](https://jimcarey08.github.io/Game-Mata-Mosquito/)
 
 ## O processo
 
